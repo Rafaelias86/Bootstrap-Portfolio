@@ -1,10 +1,9 @@
-
 .myimage{
     width: 100%;
 }
 
 .imgdiv{
-    height: 240px;
+    height: 300px;
     overflow: hidden;
 }
 .centered {
@@ -13,22 +12,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-@media (max-width: 768px) {
-    .btn-responsive {
-      padding:2px 4px;
-      font-size:80%;
-      line-height: 1;
-      border-radius:3px;
-    }
-  }
-  
-  @media (min-width: 769px) and (max-width: 992px) {
-    .btn-responsive {
-      padding:4px 9px;
-      font-size:90%;
-      line-height: 1.2;
-    }
-  }
 .btn-responsive{
     display: inline-block;
 }
@@ -53,4 +36,8 @@ h3, h1, a, .txt{
 .buttons{
   font-family: 'Russo One', sans-serif;
   font-size: 5px;
+}
+.lnk{
+  font-size: 18px;
+  font-weight: 300;
 }
