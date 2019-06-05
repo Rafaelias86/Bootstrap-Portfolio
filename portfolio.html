@@ -1,49 +1,52 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
     
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
-  <title>Rafael Uzcategui | Portfolio</title>
-  <style>
-      body { background-image: url("assets/images/bg.jpg")}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Rafael Uzcategui | Portfolio</title>
+    <style>
+      body { background-image: url("assets/images/bg.jpg");}
       .container { background: white; }
-  </style>
- 
-</head>
+    </style>
+        
+  </head>
 <body>
 
   <header>
 
     
-<nav class="navbar navbar-expand-lg navbar-dark bg-info mb-3">
-  <span class="navbar-brand mb-1 h1 bg-secondaary p-2 "> <h3>Rafael Uzcategui</h3> </span>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="nav navbar-nav navbar-right  ml-auto">
-      <li class="nav-item">
-        <a class="nav-link text-light lnk" href="index.html"><strong>About</strong></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light lnk" href="portfolio.html"><strong>Portfolio</strong></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light lnk" href="contact.html"><strong>Contact</strong></a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info mb-3">
+      <span class="navbar-brand mb-1 h1 bg-secondaary p-2 "> <h3>Rafael Uzcategui</h3> </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav navbar-right  ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light " href="index.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light " href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
 
 </header>
 
-<div class="container col-xs-12 col-sm-11 col-sm-offset-2 col-md-11 col-md-offset-2 col-lg-11 col-lg-offset-4">
-    <div class="row">
+<!-- <div class="container col-xs-12 col-sm-11 col-sm-offset-2 col-md-11 col-md-offset-2 col-lg-11 col-lg-offset-4"> -->
+<div class= "container ">  
+  <div class="row">
         <div class="col-md-12">
             <div class="page-header px-2 py-2 text-secondary">
                 <h1>Portfolio</h1>
@@ -51,7 +54,7 @@
 
             <div class="row py-2 ">
                 <div class="col-md-12 ">
-                    <div class="col-md-4 float-left work-div"> 
+                    <div class="col-md-6 float-left work-div"> 
                       <h3 class="font-weight-normal text-black p-1 text-center">Psychic Game</h3>                       
                         <div class = imgdiv><img src="assets/images/psychic.png" class="myimage img-responsive thumbnail">                                                                                    
                             <div class = "buttons centered">                            
@@ -61,7 +64,7 @@
                         </div>                            
                   </div>
 
-                    <div class="col-md-4 float-left work-div">
+                    <div class="col-md-6 float-left work-div">
                       <h3 class="font-weight-normal text-black p-1 text-center">Crystal Collector</h3>
                         <div class = imgdiv><img src="assets/images/crystal.png" class="myimage img-responsive thumbnail"> 
                             <div class = "buttons centered">                            
@@ -70,9 +73,13 @@
                             </div>                        
                         </div>
                     </div>
-                    
+                </div>
+            </div>        
 
-                    <div class="col-md-4 float-left work-div">
+
+            <div class="row py-2 ">
+              <div class="col-md-12 ">
+                    <div class="col-md-6 float-left work-div">
                         <h3 class="font-weight-normal text-black p-1 text-center">Trivia Game</h3>
                           <div class = imgdiv><img src="assets/images/trivia.jpg" class="myimage img-responsive thumbnail"> 
                               <div class = "buttons centered">                            
@@ -81,11 +88,10 @@
                               </div>                        
                           </div>
                     </div>
-            </div>
+              
             
-            <div class="row py-2 ">
-                <div class="col-md-12 ">
-                    <div class="col-md-4 float-left work-div">
+            
+                    <div class="col-md-6 float-left work-div">
                         <h3 class="font-weight-normal text-black p-1 text-center">Giphy API</h3>
                           <div class = imgdiv><img src="assets/images/gif.png" class="myimage img-responsive thumbnail"> 
                               <div class = "buttons centered">                            
@@ -94,9 +100,12 @@
                               </div>                        
                           </div>
                     </div>
+              </div>
+            </div>
 
-
-                    <div class="col-md-4 float-left work-div">
+            <div class="row py-2 ">
+              <div class="col-md-12 ">
+                    <div class="col-md-6 float-left work-div">
                         <h3 class="font-weight-normal text-black p-1 text-center">Train Scheduler</h3>
                           <div class = imgdiv><img src="assets/images/train.png" class="myimage img-responsive thumbnail"> 
                               <div class = "buttons centered">                            
@@ -106,7 +115,7 @@
                           </div>
                     </div>
 
-                    <div class="col-md-4 float-left work-div">
+                    <div class="col-md-6 float-left work-div">
                         <h3 class="font-weight-normal text-black p-1 text-center">AteBall</h3>
                           <div class = imgdiv><img src="assets/images/ateball.png" class="myimage img-responsive thumbnail"> 
                               <div class = "buttons centered">                            
@@ -115,19 +124,19 @@
                               </div>                        
                           </div>
                     </div>
-                </div>
-            </div>
+              </div>     
+            </div>   
         </div>
     </div>
 </div>
 
 <footer>
-<div class="footer fixed-bottom navbar-expand-lg bg-light text-black text-center ">
+  <div class="footer fixed-bottom navbar-expand-lg bg-light text-black text-center ">
     <p class="navbar-text py-2 txt">
-            &copy; Copyright 2019 Rafael Uzcategui
+      &copy; Copyright 2019 Rafael Uzcategui
     </p>     
-</div>
-</footer>
+  </div>
+  </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
