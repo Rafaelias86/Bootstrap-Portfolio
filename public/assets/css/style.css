@@ -7,6 +7,7 @@ html, body {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  width:150px;
 }
 .navbar{
   padding-top: 0px;
@@ -86,6 +87,16 @@ p{
   padding-bottom: 30px;
   animation: fadein 8s;
 }
+
+.alert{
+    text-align: center;
+    padding: 10px;
+    background:rgb(99, 206, 99);
+    color:#fff;
+    margin-bottom: 10px;
+    display: none;
+}
+
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -99,7 +110,7 @@ p{
 }
 
 .imgdiv{
-  height: 300px;
+  height: 150px;
   overflow: hidden;
 }
 .centered {
@@ -126,7 +137,7 @@ filter: blur(2px) brightness(60%);
 .imgdiv:hover :not(img){
 opacity: 1;
 }
-h3, h1, a, .txt{
+h5, h1, a, .txt{
 font-family: 'Russo One', sans-serif;
 }
 .buttons{
@@ -144,5 +155,31 @@ font-size: 5px;
   font-size: 12px;
 }
 #send-button{
+  background-color: #00ccff;
+}
+
+.list-inline-item i{
+  font-size: 2.5em; 
+  color: #EFEAE2;
+}
+
+.list-inline-item i:hover{
+  color: #00ccff;
+}
+
+.footer-links .list-inline-item i{
+  font-size: 3em; 
+  color: #8F9AA7;
+}
+
+.footer-links .list-inline-item i:hover{
+  color: #00ccff;
+}
+
+.hidden{
+  display: none;
+}
+
+#show-more{
   background-color: #00ccff;
 }
