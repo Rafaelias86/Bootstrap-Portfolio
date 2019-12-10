@@ -182,4 +182,46 @@ font-size: 5px;
 
 #show-more{
   background-color: #00ccff;
+  
 }
+#dev-info{
+  list-style-type:none;
+  padding-left: 6px;
+  background: #eceff1;
+  /* width: 35%; */
+  font-weight: 500;
+  border: solid #00ccff 1px;
+  /* border-left: solid #00ccff 1px; */
+}
+
+.form-group input{
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: solid #eceff1 3px;
+
+}
+
+.form-group textarea{
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: solid #eceff1 3px;
+}
+
+input:focus{
+  /* border: solid #eceff1 3px; */
+  outline: none;
+}
+
+#contact-form{
+  border-bottom: solid #eceff1 1px;
+  border-left: solid #eceff1 1px;
+}
+
+::placeholder{
+  font-weight: 100;
+}
+
+
+
