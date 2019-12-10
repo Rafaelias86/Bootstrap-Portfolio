@@ -210,7 +210,6 @@ font-size: 5px;
 }
 
 input:focus{
-  /* border: solid #eceff1 3px; */
   outline: none;
 }
 
