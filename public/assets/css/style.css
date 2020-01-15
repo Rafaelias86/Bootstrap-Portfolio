@@ -110,39 +110,41 @@ p{
 }
 
 .imgdiv{
-  height: 150px;
+  /* height: 250px; */
   overflow: hidden;
 }
 .centered {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .btn-responsive{
   display: inline-block;
 }
-.work-div{
-  transition: .3s;
+
+.imgdiv img{
+  transition: all 1.2s ease;
 }
+
 .imgdiv :not(img) {
-opacity: 0;
-transition: .3s;
+  opacity: 0;
+  transition: all 1.2s ease;
 } 
 
 .imgdiv:hover img{
-filter: blur(2px) brightness(60%);
-
+  filter: brightness(60%);
+  transform: scale(1.5);
 }
 .imgdiv:hover :not(img){
-opacity: 1;
+  opacity: 1;
 }
 h5, h1, a, .txt{
-font-family: 'Russo One', sans-serif;
+  font-family: 'Russo One', sans-serif;
 }
 .buttons{
-font-family: 'Russo One', sans-serif;
-font-size: 5px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 5px;
 }
 .footer{
   font-family: 'Russo One', sans-serif;
@@ -222,5 +224,6 @@ input:focus{
   font-weight: 100;
 }
 
-
-
+/* .item1{
+  display: none;
+} */
