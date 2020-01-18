@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function () {
     // Your web app's Firebase configuration
     var firebaseConfig = {
         apiKey: "AIzaSyC3vn12Wqpdos5wYXAFO1ViFuXCePU8mos",
@@ -84,6 +84,14 @@ $( document ).ready(function() {
         });
     }
 
-});   
+    //Show/hide long text in projects cards 
+    $(".content-new").hide();
+  $(".show_hide_new").on("click", function() {
+    var txt = $(this).prev(".content-new").is(':visible') ? 'More...' : 'Less';
+    $(this).text(txt);
+    $(this).prev('.content-new').slideToggle(100);
+  });
+
+});
 
 

@@ -110,7 +110,7 @@ p{
 }
 
 .imgdiv{
-  /* height: 250px; */
+  height: 180px;
   overflow: hidden;
 }
 .centered {
@@ -224,6 +224,6 @@ input:focus{
   font-weight: 100;
 }
 
-/* .item1{
-  display: none;
-} */
+.card-title{
+  padding-top: 5px;
+}
